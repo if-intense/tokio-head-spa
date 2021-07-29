@@ -130,7 +130,7 @@
 
       <div class="strip-section">
         <div class="row model p-0">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-7 d-flex align-items-center justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-7 p-0 d-flex align-items-center justify-content-center">
             <div>
               
               <h3>頭皮に悩みを抱えている…</h3>
@@ -147,7 +147,6 @@
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-7 d-flex align-items-center justify-content-center">
             <div>
-              <!-- <h3>&nbsp;</h3> -->
               <h3>頭皮が乾燥している…</h3>
               <h3>頭皮と髪のケアを同時にしたい…</h3>
             </div>
@@ -219,36 +218,40 @@
               <!-- <h6 data-aos="fade-right">しっとりNo.1</h6> -->
               <!-- <h6 data-aos="fade-left"></h6> -->
               <!-- <h6 data-aos="fade-right"></h6> -->
-              <div class="container">
-                <div class="img">
+              <!-- <div class="container">
+                
+              </div> -->
+
+              <div class="img">
                 
                 <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1" data-aos="flip-right">
                   <img src="img/spa-001.jpg" alt="TOKIO IE PREMIUM　プレミアム" class="img-fluid">
                 </div>
                 </div>
-              </div>
 
             </div>
         </section>
 
 
         <section class="section03">
-          <div class="section03-text" id="productChar">
-            <h2 class="text-center">商品特徴</h2>
-              <div class="row my-5 col-lg-10 offset-lg-1 justify-content-center">
-                <div class="col-lg-4 col-md-4 col-sm-4 items" v-for="type in types">
-                  <img :src="type.img" alt="TOKIO INKARAMI PREMIUM SHAMPOO" class="img-fluid">
-                  <div class="items-text">
-                    <h2>{{type.name}}</h2>
-                    <p>{{type.text}}</p>
+          <div class="container">
+            <div class="section03-text" id="productChar">
+              <h2 class="text-center">商品特徴</h2>
+                <div class="row my-5">
+                  <div class="col-lg-6 col-md-6 col-sm-6 items" v-for="type in types">
+                    <img :src="type.img" alt="TOKIO INKARAMI PREMIUM SHAMPOO" class="img-fluid">
+                    <div class="items-text">
+                      <h2>{{type.name}}</h2>
+                      <p>{{type.text}}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            <h5 class="text-center">
-              <strong class="light">レモングラスの香り</strong>
-            </h5>
-            
-            <!-- <h5 class="text-center">美容室でトリートメントをしている気分に…</h5> -->
+              <h5 class="text-center">
+                <strong class="light">レモングラスの香り</strong>
+              </h5>
+              
+              <!-- <h5 class="text-center">美容室でトリートメントをしている気分に…</h5> -->
+            </div>
           </div>
         </section>
 
@@ -260,7 +263,7 @@
                 <h5 class="text-center">{{item.name}}</h5>
                 <h6 class="smaller text-center">{{item.subtext}}</h6>
                 <p class="information mt-4">{{item.about}}</p>
-                <img :src="item.img1" alt="graph" class="img-fluid">
+                <!-- <img :src="item.img1" alt="graph" class="img-fluid"> -->
               </div>
             </div>
           </div>

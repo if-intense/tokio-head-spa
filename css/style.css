@@ -33,7 +33,7 @@ nav .logo {
 
 .jumbotron {
   width: 100%;
-  aspect-ratio: 1980/800;
+  aspect-ratio: 16/9;
   background: url("../img/tokio-ie-spa-bnr.jpg") no-repeat;
   background-position: center;
   background-size: cover;
@@ -41,7 +41,7 @@ nav .logo {
 }
 .jumbotron .logo {
   position: absolute;
-  width: 10%;
+  width: 8%;
   top: 5%;
   left: 1%;
 }
@@ -67,7 +67,7 @@ section {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 .strip-section .model {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 .strip-section .model h3 {
@@ -80,10 +80,10 @@ section {
 }
 
 .tokio {
-  background: url(../img/spa-001.jpg) no-repeat;
+  background: url(../img/spa720.png) no-repeat;
   background-position: center;
   background-size: cover;
-  height: 40%;
+  padding-top: 25%;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -102,7 +102,7 @@ section {
   padding: 4vh 0;
 }
 .section01 .section01-title {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 .section01 .section01-title img {
@@ -113,6 +113,7 @@ section {
 }
 .section01 .section01-title p {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  line-height: 2em;
 }
 .section01 .section01-text {
   padding: 40px 20px;
@@ -137,7 +138,6 @@ section {
 .section02 {
   background: #d5c473;
   background: linear-gradient(196deg, #d6cdf3 0%, #E5DDFF 100%);
-  height: 100%;
 }
 .section02 h2 {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
@@ -336,7 +336,7 @@ footer .footer-contents p a:hover {
     width: 100%;
   }
   .strip-section .model h3 {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .section03 .section03-text .items-text h2 {
@@ -389,11 +389,6 @@ footer .footer-contents p a:hover {
     font-size: 0.8em;
   }
 }
-@media (max-width: 992px) {
-  .jumbotron {
-    height: 70vh;
-  }
-}
 @media (max-width: 768px) {
   .strip-section .model {
     width: 100%;
@@ -408,6 +403,14 @@ footer .footer-contents p a:hover {
     height: 30%;
   }
 
+  .section01 {
+    padding: 4vh 0;
+  }
+  .section01 .section01-title {
+    width: 75%;
+    margin: 0 auto;
+  }
+
   .section03 .section03-text .items-text h2 {
     font-size: 0.75em;
   }
@@ -416,9 +419,6 @@ footer .footer-contents p a:hover {
   }
 }
 @media (max-width: 520px) {
-  .jumbotron {
-    height: 45vh;
-  }
   .jumbotron .logo {
     width: 13%;
     left: 3%;
@@ -450,9 +450,6 @@ footer .footer-contents p a:hover {
     padding: 0 20px;
   }
 
-  .section02 {
-    height: 100%;
-  }
   .section02 h2 {
     font-size: 1.4em;
   }
